@@ -5,9 +5,9 @@ library(caret)
 library(ROCR)
 library(gains)
 
-setwd("C:\\Jig12051\\Logistic Regression")
+setwd("C:\\Logistic Regression")
 #Reading the csv file
-good <- read.csv("C:\\Data Science with R\\Assignments\\Graded Assignments\\Topic 10 - Logistic Regression\\goodforu-class12.csv")
+good <- read.csv("C:\\goodforu-class12.csv")
 
 #Taking back up of the actual file
 good_bk <- good
