@@ -6,7 +6,7 @@ library(RCurl)
 
 #Getting the content from Url
 
-htmlContent <- getURL("file:///C:/Data Science with R/Assignments/Graded Assignments/Topic 6.2 -  Data Visualization in R/The World's Most Valuable Brands List - Forbes.html", ssl.verifyPeer = FALSE)
+htmlContent <- getURL("file://The World's Most Valuable Brands List - Forbes.html", ssl.verifyPeer = FALSE)
 htmlParse <- htmlTreeParse(htmlContent, useInternal = TRUE)
 
 #Extraction table data from html
