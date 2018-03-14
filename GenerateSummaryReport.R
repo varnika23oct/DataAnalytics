@@ -1,8 +1,8 @@
 library(xlsx)
 
-setwd("C:\\Jig12051\\Telecom Case Study")
+setwd("C:\\Path")
 
-#telecom <- read.csv("C:/Data Science with R/Assignments/Graded Assignments/Topic 13 -  Final Case Study Course Wrap up/telecomfinal.csv")
+#telecom <- read.csv("C:/telecom.csv")
 telecom <- read.csv("Telecom_Updated.csv")
 #getting the data type,summaries and missing values
 lists<-1
