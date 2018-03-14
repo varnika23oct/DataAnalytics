@@ -4,4 +4,4 @@
 
 #Code for generating data summary report for any data
 
-#Logistic Regression and using caret, ROCR and gains packages
+#Logistic Regression/ Use of caret, ROCR and gains packages/ Confusion Matrix
