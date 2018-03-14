@@ -6,10 +6,10 @@ library(lubridate)
 library(ggplot2)
 
 #Reading data from the text files
-Campaign <- read.table("C:\\Data Science with R\\Assignments\\Graded Assignments\\Topic 8.2 -  Data Preparation\\Campaign_File.txt",header = T, sep = "\t")
-Customers<- read.table("C:\\Data Science with R\\Assignments\\Graded Assignments\\Topic 8.2 -  Data Preparation\\Customers_File.txt",header = T, sep = "\t")
-Products<- read.table("C:\\Data Science with R\\Assignments\\Graded Assignments\\Topic 8.2 -  Data Preparation\\Products_File.txt",header = T, sep = "\t")
-Transactions<- read.table("C:\\Data Science with R\\Assignments\\Graded Assignments\\Topic 8.2 -  Data Preparation\\Transactions_File.txt",header = T, sep = "\t")
+Campaign <- read.table("C:\\Campaign_File.txt",header = T, sep = "\t")
+Customers<- read.table("C:\\Customers_File.txt",header = T, sep = "\t")
+Products<- read.table("C:\\Products_File.txt",header = T, sep = "\t")
+Transactions<- read.table("C:\\Transactions_File.txt",header = T, sep = "\t")
 
 table(Campaign$Campaign_Responce)
 #Changing True=1 and false=0
